@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* @layer components{
+    .btn-link {
+        @apply inline-block px-5 py-1.5 border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] rounded-sm text-sm leading-normal;
+    }
+    .btn-lg {
+        @apply px-6 py-3;
+    }
+} */
