@@ -8,6 +8,8 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-10">
 
+            <x-alert-success>{{ session('success') }}</x-alert-success>
+
             <a href="{{ route('notes.create') }}" class="my-4 p-4 bg-white border-b border-gray-200 shadow-sm sm:rounded-lg">+ New Note</a>
 
             @forelse ($notes as $note)
